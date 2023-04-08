@@ -1,0 +1,97 @@
+##### Mazars ######
+Bellomio@098.
+
+/Users/jojozeufack/Codes/IntelijCourse
+
+  .idea folder
+is stuff specific to inteliJ(where inteliJ set the worksapce, project-templates and ..)
+
+  src folder
+is where we have every things that deal with our code
+
+  out folder
+this name depends of the project for example for Maven projects is named 'target folder'
+basically is where we have the compile version of our classes.
+
+Packages should always start with lowercase
+
+Presentation assistant is the plugin which allow us to visualise shortcut command we use
+
+###Search###
+Search Everywhere-> Double shift
+Go to file-> shift+command+n
+Recent files-> Command + e
+Find in path-> Shift+Control+f (allow to search pretty much Everywhere)
+
+To find where a class or function is in the project, just double click on in, Then
+press Option + F1 or click the cycle symbol near 'Project'
+
+To find method call hierarchy
+1.Find the class where is the method
+2.click on structure or Command + F12
+3.Double click on the method then Control+Option+h
+
+
+AceJump is a plugin which allow you navigate easily in the code.
+After installing the plugin to active it press Control + ;
+Then use up/down or left/right button and write the letter where you want to move.
+
+#### Writing fast code ####
+After navigating in the project with Command + 1
+Control + Enter then write the name of the package
+Control + Enter then write the name of the class
+After defining the variables
+Control + Enter pick the constructor select all then OK
+Control + Enter pick the constructor then click on Select None (empty constructor)
+Control + Enter pick getter and setter
+Control + Enter pick the constructor
+Control + Enter pick toString
+Control + Enter pick equal and hashCode
+We that we could generate around 60 lines of code.
+
+Mysitekick.123
+
+to expand or minimize a function just press Command + '+' or Command + '-'
+To extract variable in a sout select the text and press Option + Command + v
+To inline a variables press Option + Command + n
+To extract method just select the lines of codes and press Option + Command + m Then
+click on the configuration symbol to insert the details of the function(function name,
+visibility)
+To extract parameter just select the variable and press Option + Command + p
+
+To refactoring Shift + F6
+To select all occurrences Control + Command  + g
+To duplicate line of code Command + d
+To remove line of code Command + y
+To format a line Option + Command + l
+
+To put the cursor on different lines: ⌥ ⇧ Click
+
+#### Test #####
+To create test of a class, select the name of the class and press Control + Enter or
+Shift + Command + t (And will also go back to the class which is under test).
+To test all the tests in class Command + F12
+After running a test suite, filter to see:
+- failed, ignored, sort alphabetically, sort by Duration
+After running a test suite filter we can also rerun only the failed tests by
+clicking on the button Rerun Failed Tests
+
+##### debugging #####
+To put a break point on a line of code Command + F8
+After insert the break points to debug just right click on the line and click on debug
+then if we click on 'Step over' will bring us to the next break point.
+Suppose on the line of code  where we call a method and we want to test it.
+Just right click on that line and click on 'Evaluate expression'(Command + F8) then
+click on 'Evaluate' to see the result.
+
+### Git & GitHub Integration ####
+Right click near a number and select 'Annotate with Git blame' -> will be display
+the Author and date. clicking on the name of the Author we can see all the files touch
+on that commit.
+
+##### Webinar applitools #######
+fipucaddissi-8614@yopmail.com
+
+### Docker ##
+To come out of the sql shell(template1=# ) Control + d
+To come out of the container shell(root@67ebfef986e8:/# ) Control + d
